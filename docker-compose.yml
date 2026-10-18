@@ -6,7 +6,7 @@
 #  - Sinh viên điền các ô ______ tại các dòng TODO trong service "app" và "nginx".
 #  - Chạy:  docker compose --env-file student.env up -d --build
 # =============================================================================
-name: ${COMPOSE_PROJECT_NAME:campus-hub}
+name: ${COMPOSE_PROJECT_NAME:-campus-hub}
 
 services:
   # ---------------------------------------------------------------- MySQL (CÓ SẴN)
