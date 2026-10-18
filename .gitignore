@@ -9,4 +9,3 @@ frontend/dist/
 *.log
 !frontend/package.json
 !frontend/package-lock.json
-student.env
